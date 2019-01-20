@@ -17,7 +17,7 @@ const RepositoresGridWrap = styled.div`
 
 class RepositoresGrid extends Component {
   @lazyInject(SERVICE_IDENTIFIER.MAIN_PAGE_DOMAIN_STORE)
-  public MainPageDomainStore: IMainPageDomainStore;
+  private MainPageDomainStore: IMainPageDomainStore;
   public render() {
     return (
       <RepositoresGridWrap>
