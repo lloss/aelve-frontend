@@ -1,4 +1,5 @@
 export const SERVICE_IDENTIFIER = {
     HASKELL_FORM_STORE: Symbol.for("HASKELL_FORM_STORE"),
+    MAIN_PAGE_DOMAIN_STORE: Symbol.for("MAIN_PAGE_DOMAIN_STORE"),
     UI_STORE: Symbol.for("UI_STORE"),
 };

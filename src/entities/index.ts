@@ -1,1 +1,1 @@
-export { HaskellRepoSearhFormStore, UiStore } from './stores'
+export { HaskellRepoSearhFormStore, UiStore, MainPageDomainStore, MainPageMockDomainStore } from './stores'
