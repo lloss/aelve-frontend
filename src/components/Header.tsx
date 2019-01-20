@@ -37,11 +37,11 @@ const Header:React.FC = () => {
         <Menu />
       </HeaderTop>
       <HeaderBottom>
-				<Container>
-					<Title>grep over package repositories</Title>
-				</Container>
-			</HeaderBottom>
-		</HeaderWrap>
+        <Container>
+          <Title>grep over package repositories</Title>
+        </Container>
+      </HeaderBottom>
+    </HeaderWrap>
   )
 }
 
