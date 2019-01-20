@@ -1,17 +1,35 @@
-
 import {observer} from 'mobx-react'
-import * as React from 'react';
+import React, { Component } from 'react';
+import styled from 'styled-components';
 
-import './App.css';
-import { Example } from './components/Example'
+import Header from './components/Header';
+import Metro from './components/Metro';
+import { Container } from './globalStyles';
+
+import {langs} from './mock-langs';
+
+const AppWrap = styled.div`
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+`;
+
+const Main = styled.main`
+  flex: 1 0 auto;
+`
 
 
 @observer
-class App extends React.Component {
+class App extends Component {
   public render() {
-    return <div>
-       <Example />
-    </div>
+    return <AppWrap>
+        <Header />
+        <Main>
+          <Container>
+            <Metro langs={langs} />
+          </Container>
+        </Main>
+    </AppWrap>
   }
 }
 
