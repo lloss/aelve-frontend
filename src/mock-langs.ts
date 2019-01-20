@@ -1,4 +1,5 @@
-export const langs = [
+import { IPropsRepositoryItem } from './interfaces'
+export const langs: IPropsRepositoryItem[] = [
   {
     "id": "5c415c1ed9dff77113cf98ab",
     "logoSrc": "http://placehold.it/74x74",

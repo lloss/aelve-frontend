@@ -2,9 +2,9 @@ import 'normalize.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './App';
 import { GlobalStyles } from './globalStyles';
 import registerServiceWorker from './registerServiceWorker';
+import App from './views/App';
 
 
 

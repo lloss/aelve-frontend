@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import {IPropsMetroItem} from '../interfaces/index';
+import {IPropsRepositoryItem} from '../interfaces/index';
 
-const MetroItemWrap = styled.div`
+const RepositoryItemWrap = styled.div`
   width: 100%;
   min-height: 250px;
   color: #fff;
@@ -66,9 +66,9 @@ const Value = styled(Span)`
 `
 
 
-const MetroItem:React.FC<IPropsMetroItem> = ({repoLabel, repoUrl, totalPackages, updatedAgo, logoSrc}) => {
+const RepositoryItem:React.FC<IPropsRepositoryItem> = ({repoLabel, repoUrl, totalPackages, updatedAgo, logoSrc}) => {
   return (
-    <MetroItemWrap>
+    <RepositoryItemWrap>
       <Title><WrappedLink href="/">{repoLabel}</WrappedLink></Title>
       <RepoLink href={`http://${repoUrl}`}>
         {repoUrl}
@@ -79,8 +79,8 @@ const MetroItem:React.FC<IPropsMetroItem> = ({repoLabel, repoUrl, totalPackages,
         alt={repoLabel}
       />
       <Updated>Last updated: {updatedAgo}</Updated>
-    </MetroItemWrap>
+    </RepositoryItemWrap>
   )
 }
 
-export default MetroItem;
+export default RepositoryItem;

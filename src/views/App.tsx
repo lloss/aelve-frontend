@@ -2,9 +2,9 @@ import {observer} from 'mobx-react'
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-import Header from './components/Header';
-import Metro from './components/Metro';
-import { Container } from './globalStyles';
+import Header from '../components/Header';
+import RepositoresGrid from '../components/RepositoresGrid';
+import { Container } from '../globalStyles';
 
 
 const AppWrap = styled.div`
@@ -25,7 +25,7 @@ class App extends Component {
         <Header />
         <Main>
           <Container>
-            <Metro />
+            <RepositoresGrid />
           </Container>
         </Main>
     </AppWrap>
