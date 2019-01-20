@@ -66,17 +66,17 @@ const Value = styled(Span)`
 `
 
 
-const MetroItem:React.FC<IPropsMetroItem> = ({lang, repo, totalPackages, updatedAgo, logoSrc}) => {
+const MetroItem:React.FC<IPropsMetroItem> = ({repoLabel, repoUrl, totalPackages, updatedAgo, logoSrc}) => {
   return (
     <MetroItemWrap>
-      <Title><WrappedLink href="/">{lang}</WrappedLink></Title>
-      <RepoLink href={`http://${repo}`}>
-        {repo}
+      <Title><WrappedLink href="/">{repoLabel}</WrappedLink></Title>
+      <RepoLink href={`http://${repoUrl}`}>
+        {repoUrl}
       </RepoLink>
       <Value>{totalPackages} packages</Value>
       <Img
         src={logoSrc}
-        alt={lang}
+        alt={repoLabel}
       />
       <Updated>Last updated: {updatedAgo}</Updated>
     </MetroItemWrap>

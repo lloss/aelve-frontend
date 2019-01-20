@@ -6,7 +6,6 @@ import Header from './components/Header';
 import Metro from './components/Metro';
 import { Container } from './globalStyles';
 
-import {langs} from './mock-langs';
 
 const AppWrap = styled.div`
   display: flex;
@@ -26,7 +25,7 @@ class App extends Component {
         <Header />
         <Main>
           <Container>
-            <Metro langs={langs} />
+            <Metro />
           </Container>
         </Main>
     </AppWrap>

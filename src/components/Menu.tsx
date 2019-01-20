@@ -24,7 +24,7 @@ const MenuLink = styled.a`
   }
 `
 
-const Menu:React.ComponentType = () => {
+const Menu:React.FC = () => {
   return (
     <MenuWrap>
       <MenuItem>

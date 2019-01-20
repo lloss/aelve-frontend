@@ -29,13 +29,13 @@ const Title = styled.h1`
 `
 
 
-const Header:React.ComponentType = () => {
+const Header:React.FC = () => {
   return (
     <HeaderWrap>
-			<HeaderTop>
+      <HeaderTop>
         <Logo />
         <Menu />
-			</HeaderTop>
+      </HeaderTop>
       <HeaderBottom>
 				<Container>
 					<Title>grep over package repositories</Title>

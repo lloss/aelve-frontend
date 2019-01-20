@@ -3,13 +3,14 @@ export interface IHaskellRepoSearchFormStore {
 }
 export interface IUiStore {
     value: string;
+    langs: IPropsMetroItem[]
 }
 
 
 export interface IPropsMetroItem {
     id?: any,
-    lang?: string,
-    repo?: string,
+    repoLabel?: string,
+    repoUrl?: string,
     totalPackages?: number,
     updatedAgo?: string,
     logoSrc?: string

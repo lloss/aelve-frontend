@@ -15,7 +15,7 @@ const Text = styled.span`
   line-height: 24px;
 `
 
-const Logo:React.ComponentType = () => {
+const Logo:React.FC = () => {
   return (
     <LogoWrap>
       <img src={logo} alt="aelve"/>

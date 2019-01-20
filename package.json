@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@types/styled-components": "^4.1.6",
     "inversify": "^5.0.1",
     "inversify-inject-decorators": "^3.1.0",
     "mobx": "^5.8.0",
@@ -24,6 +23,7 @@
     "eject": "react-scripts-ts eject"
   },
   "devDependencies": {
+    "@types/styled-components": "^4.1.6",
     "@types/jest": "^23.3.12",
     "@types/node": "^10.12.18",
     "@types/react": "^16.7.18",
