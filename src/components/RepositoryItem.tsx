@@ -1,3 +1,4 @@
+import { Link } from '@reach/router';
 import React from 'react';
 import styled from 'styled-components';
 
@@ -36,7 +37,7 @@ const Title = styled.h4`
   margin: 0;
 `
 
-const WrappedLink = styled.a`
+const WrappedLink = styled(Link)`
   color: #fff;
   text-decoration: none;
 `
@@ -69,7 +70,7 @@ const Value = styled(Span)`
 const RepositoryItem:React.FC<IPropsRepositoryItem> = ({repoLabel, repoUrl, totalPackages, updatedAgo, logoSrc}) => {
   return (
     <RepositoryItemWrap>
-      <Title><WrappedLink href="/">{repoLabel}</WrappedLink></Title>
+      <Title><WrappedLink to={`/${repoLabel}`}>{repoLabel}</WrappedLink></Title>
       <RepoLink href={`http://${repoUrl}`}>
         {repoUrl}
       </RepoLink>
