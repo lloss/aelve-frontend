@@ -1,10 +1,10 @@
+import { createHistory, createMemorySource, LocationProvider, Router } from "@reach/router";
 import {observer} from 'mobx-react'
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-import Header from '../components/Header';
-import RepositoresGrid from '../components/RepositoresGrid';
-import { Container } from '../globalStyles';
+import MainPage from './MainPage';
+import NotFound from './NotFound';
 
 
 const AppWrap = styled.div`
@@ -13,22 +13,22 @@ const AppWrap = styled.div`
   flex-direction: column;
 `;
 
-const Main = styled.main`
-  flex: 1 0 auto;
-`
-
+const source = createMemorySource('/')
+const history = createHistory(source);
 
 @observer
-class App extends Component {
+class App extends Component<{ }, { }> {
   public render() {
-    return <AppWrap>
-        <Header />
-        <Main>
-          <Container>
-            <RepositoresGrid />
-          </Container>
-        </Main>
-    </AppWrap>
+    return (
+      <LocationProvider history={history}>
+        <AppWrap>
+          <Router>
+            <MainPage path="/" />
+            <NotFound default={true} />
+          </Router>
+        </AppWrap>
+      </LocationProvider>
+    )
   }
 }
 
