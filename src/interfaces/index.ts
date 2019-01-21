@@ -16,3 +16,8 @@ export interface IPropsRepositoryItem {
     updatedAgo: string,
     logoSrc: string
 }
+
+export interface IRouterStore {
+    location: Window['location'],
+    history: Window['history']
+}
