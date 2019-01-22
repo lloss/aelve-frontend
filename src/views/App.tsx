@@ -3,8 +3,10 @@ import {observer} from 'mobx-react'
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-import MainPage from './MainPage';
-import NotFound from './NotFound';
+import RepositoresGrid from '../components/RepositoresGrid';
+import SearchForm from '../components/SearchForm';
+import SearchResults from '../components/SearchResults';
+import Page from './Page';
 
 
 const AppWrap = styled.div`
@@ -23,8 +25,9 @@ class App extends Component<{ }, { }> {
       <LocationProvider history={history}>
         <AppWrap>
           <Router>
-            <MainPage path="/" />
-            <NotFound default={true} />
+            <Page path="/" content={ RepositoresGrid }/>
+            <Page path="/Haskell" form={ SearchForm } content={ SearchResults }/>
+            <Page default={true} />
           </Router>
         </AppWrap>
       </LocationProvider>
