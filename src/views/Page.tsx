@@ -16,7 +16,7 @@ interface IPage {
   default?: boolean
 }
 
-const Page = ({form: Form, content: Content, ...props}: IPage) => {
+const Page:React.FC<IPage> = ({form: Form, content: Content, ...props}) => {
   return (
     <>
       <Header>

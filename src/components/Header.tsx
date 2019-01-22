@@ -32,7 +32,7 @@ interface IHeader {
   children?: ReactNode
 }
 
-const Header:React.FC = ({children}: IHeader) => {
+const Header:React.FC<IHeader> = ({children}) => {
   return (
     <HeaderWrap>
       <HeaderTop>
