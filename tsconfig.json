@@ -1,14 +1,14 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
     "outDir": "build/dist",
-    "module": "esnext",
+    "module": "commonjs",
     "target": "es5",
     "lib": ["es6", "dom"],
     "sourceMap": true,
     "allowJs": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "jsx": "react",
     "moduleResolution": "node",
@@ -21,6 +21,7 @@
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
+    "baseUrl": "./",
     "paths": {
       "": ["src/@types/"]
     }
