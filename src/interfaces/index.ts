@@ -1,3 +1,4 @@
+import {History, Location, NavigateFn} from '@reach/router';
 export interface IHaskellRepoSearchFormStore {
     haskell: string
 }
@@ -15,4 +16,11 @@ export interface IPropsRepositoryItem {
     totalPackages: number,
     updatedAgo: string,
     logoSrc: string
+}
+
+export interface IRouterStore {
+    navigate: NavigateFn,
+    location: Location,
+    history: History,
+    setRouter(navigate: NavigateFn, location: Location, history: History): void
 }
