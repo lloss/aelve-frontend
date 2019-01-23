@@ -1,3 +1,4 @@
+import { createHistory, Router } from '@reach/router';
 import {observer} from 'mobx-react'
 import React, { Component } from 'react';
 import styled from 'styled-components';
@@ -17,18 +18,24 @@ const Main = styled.main`
   flex: 1 0 auto;
 `
 
+const source = window as any;
+const history = createHistory(source)
 
 @observer
 class App extends Component {
   public render() {
-    return <AppWrap>
-        <Header />
-        <Main>
-          <Container>
-            <RepositoresGrid />
-          </Container>
-        </Main>
-    </AppWrap>
+    return (
+        <AppWrap>
+          <Header />
+          <Main>
+            <Container>
+              <Router>
+                <RepositoresGrid path="/" history={history} />
+              </Router>
+            </Container>
+          </Main>
+        </AppWrap>
+    )
   }
 }
 
