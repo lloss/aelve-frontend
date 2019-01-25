@@ -1,9 +1,8 @@
-import { History, Location, NavigateFn } from '@reach/router';
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import { lazyInject } from '../config/ioc.container'
 import { SERVICE_IDENTIFIER } from '../constants/identifiers'
-import { IMainPageDomainStore, IPropsRepositoryItem, IRouterStore } from '../interfaces'
+import { IMainPageDomainStore, IPropsRepositoryItem } from '../interfaces'
 
 
 import RepositoryItem from './RepositoryItem';
@@ -16,20 +15,9 @@ const RepositoresGridWrap = styled.div`
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 `
 
-class RepositoresGrid extends Component<{ path: string, location?: Location, navigate?: NavigateFn, history: History },{}> {
+class RepositoresGrid extends Component<{ },{}> {
   @lazyInject(SERVICE_IDENTIFIER.MAIN_PAGE_DOMAIN_STORE)
   private MainPageDomainStore: IMainPageDomainStore;
-
-  @lazyInject(SERVICE_IDENTIFIER.ROUTER_STORE)
-  private RouterStore: IRouterStore;
-
-  public componentDidMount() {
-    this.RouterStore.setRouter(
-      this.props.navigate as NavigateFn, 
-      this.props.location as Location, 
-      this.props.history
-    );
-  }
 
   public render() {
     return (
