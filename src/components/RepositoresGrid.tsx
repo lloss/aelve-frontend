@@ -15,7 +15,7 @@ const RepositoresGridWrap = styled.div`
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 `
 
-class RepositoresGrid extends Component<{ },{}> {
+class RepositoresGrid extends Component {
   @lazyInject(SERVICE_IDENTIFIER.MAIN_PAGE_DOMAIN_STORE)
   private MainPageDomainStore: IMainPageDomainStore;
 
