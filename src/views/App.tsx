@@ -1,34 +1,17 @@
+import { Router } from '@reach/router';
 import {observer} from 'mobx-react'
 import React, { Component } from 'react';
-import styled from 'styled-components';
 
-import Header from '../components/Header';
-import RepositoresGrid from '../components/RepositoresGrid';
-import { Container } from '../globalStyles';
-
-
-const AppWrap = styled.div`
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-`;
-
-const Main = styled.main`
-  flex: 1 0 auto;
-`
-
+import MainPage from './MainPage';
 
 @observer
 class App extends Component {
   public render() {
-    return <AppWrap>
-        <Header />
-        <Main>
-          <Container>
-            <RepositoresGrid />
-          </Container>
-        </Main>
-    </AppWrap>
+    return (
+      <Router>
+        <MainPage path="/" />
+      </Router>
+    )
   }
 }
 

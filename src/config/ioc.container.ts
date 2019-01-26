@@ -11,7 +11,11 @@ import {
     UiStore
 } from '../entities/stores'
 
-import {IHaskellRepoSearchFormStore, IMainPageDomainStore, IUiStore} from '../interfaces'
+import {
+    IHaskellRepoSearchFormStore, 
+    IMainPageDomainStore, 
+    IUiStore
+} from '../interfaces'
 
 const container = new Container();
 
