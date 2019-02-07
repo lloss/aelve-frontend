@@ -8,12 +8,14 @@ import {
     HaskellRepoSearhFormStore,
     MainPageDomainStore,
     MainPageMockDomainStore,
+    SearchFormStore,
     UiStore
 } from '../entities/stores'
 
 import {
     IHaskellRepoSearchFormStore, 
     IMainPageDomainStore, 
+    ISearchFormStore,
     IUiStore
 } from '../interfaces'
 
@@ -26,7 +28,7 @@ container.bind<IMainPageDomainStore>(SERVICE_IDENTIFIER.MAIN_PAGE_DOMAIN_STORE).
 if (process.env.NODE_ENV === "TEST") {
     container.bind<IMainPageDomainStore>(SERVICE_IDENTIFIER.MAIN_PAGE_DOMAIN_STORE).to(MainPageMockDomainStore);
 }
-
+container.bind<ISearchFormStore>(SERVICE_IDENTIFIER.SEARCH_FORM_STORE).to(SearchFormStore);
 
 
 
