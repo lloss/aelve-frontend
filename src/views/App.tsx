@@ -3,6 +3,7 @@ import {observer} from 'mobx-react'
 import React, { Component } from 'react';
 
 import MainPage from './MainPage';
+import SearchPage from './SearchPage';
 
 @observer
 class App extends Component {
@@ -10,6 +11,7 @@ class App extends Component {
     return (
       <Router>
         <MainPage path="/" />
+        <SearchPage path=":repoLabel" />
       </Router>
     )
   }

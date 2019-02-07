@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
 import styled from "styled-components";
 
 import { Container } from '../globalStyles';
@@ -28,8 +28,12 @@ const Title = styled.h1`
   margin: 10px 0 45px 0;
 `
 
+interface IHeader {
+  children?: ReactNode
+}
 
-const Header:React.FC = () => {
+
+const Header:React.FC<IHeader> = ({children}) => {
   return (
     <HeaderWrap>
       <HeaderTop>
@@ -39,6 +43,7 @@ const Header:React.FC = () => {
       <HeaderBottom>
         <Container>
           <Title>grep over package repositories</Title>
+          {children && children}
         </Container>
       </HeaderBottom>
     </HeaderWrap>
