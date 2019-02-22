@@ -1,0 +1,517 @@
+[
+  {
+    "id": "5c6faa4406e7777ee7681a12",
+    "repoName": "3dmodels-0.3.0",
+    "matches": 477,
+    "repoUrl": "#",
+    "files": [
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      }
+    ]
+  },
+  {
+    "id": "5c6faa4479de55f65b196fcd",
+    "repoName": "3dmodels-0.3.0",
+    "matches": 939,
+    "repoUrl": "#",
+    "files": [
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      }
+    ]
+  },
+  {
+    "id": "5c6faa441edf4109cb43f442",
+    "repoName": "3dmodels-0.3.0",
+    "matches": 660,
+    "repoUrl": "#",
+    "files": [
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      }
+    ]
+  },
+  {
+    "id": "5c6faa44f12eac13e96fcd64",
+    "repoName": "3dmodels-0.3.0",
+    "matches": 951,
+    "repoUrl": "#",
+    "files": [
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      }
+    ]
+  },
+  {
+    "id": "5c6faa44f8007cac7df71843",
+    "repoName": "3dmodels-0.3.0",
+    "matches": 446,
+    "repoUrl": "#",
+    "files": [
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      }
+    ]
+  },
+  {
+    "id": "5c6faa44ddae40c5a29acd5d",
+    "repoName": "3dmodels-0.3.0",
+    "matches": 329,
+    "repoUrl": "#",
+    "files": [
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      }
+    ]
+  },
+  {
+    "id": "5c6faa4486063500b6120a79",
+    "repoName": "3dmodels-0.3.0",
+    "matches": 252,
+    "repoUrl": "#",
+    "files": [
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      }
+    ]
+  },
+  {
+    "id": "5c6faa447bfaedfead701881",
+    "repoName": "3dmodels-0.3.0",
+    "matches": 742,
+    "repoUrl": "#",
+    "files": [
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      }
+    ]
+  },
+  {
+    "id": "5c6faa4458541f914e63008a",
+    "repoName": "3dmodels-0.3.0",
+    "matches": 993,
+    "repoUrl": "#",
+    "files": [
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      }
+    ]
+  },
+  {
+    "id": "5c6faa44008aa59d7ddb73be",
+    "repoName": "3dmodels-0.3.0",
+    "matches": 100,
+    "repoUrl": "#",
+    "files": [
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      },
+      {
+        "fileLink": "#",
+        "fileName": "Graphics/Model/MikuMikuDance/Loader.hs",
+        "sourceCode": "\n\t\t\t\t-- SDEF need left<->right handed system transformation?\n\t\t\t3 -> SDEF <$> get2 getBoneIndex <*> getFloat <*> get3 getPos\n\t\t\t4 -> QDEF <$> get4 getBoneIndex <*> getV4\n\t\t-- edgeScalingFactor\n\t\tesf <- getFloat\n\t\treturn $ MMDVertex pos normal uv extV4s w esf\n\n\t-- Plane\n\tnumPlanes <- getWord32Int\n"
+      }
+    ]
+  }
+]
