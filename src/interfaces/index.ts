@@ -29,9 +29,10 @@ export interface IRouterStore {
 
 export interface ISearchItem {
     id?: string,
-    fileName: string,
-    fileUrl: string,
-    sourceCode: string
+    repoName: string,
+    repoUrl: string,
+    matches: number,
+    files: any[]
 }
 
 
