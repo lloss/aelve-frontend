@@ -1,20 +1,23 @@
-import React, {Component} from 'react';
-import { lazyInject } from '../config/ioc.container'
-import { SERVICE_IDENTIFIER } from '../constants/identifiers'
-import { ISearchFormStore } from '../interfaces'
+import React from 'react';
+import { ISearchItem } from '../interfaces'
 
-
-class SearchResults extends Component {
-  @lazyInject(SERVICE_IDENTIFIER.SEARCH_FORM_STORE)
-  private SearchFormStore: ISearchFormStore;
-  public render() {
-    const {searchResults} = this.SearchFormStore
-    return searchResults ? (
-        searchResults.map(({id, ...item}) => <div key={id}>{item.fileName} {item.fileUrl} {item.sourceCode}</div>)
-      ) : (
-        <h2>search results</h2>
+const SearchResults:React.FC<any> = props => {
+  const {searchResults} = props;
+  return searchResults.length ? (
+    searchResults.map(({id, ...item}:ISearchItem) => {
+      return (
+        <>
+          <div key={id}>{item.repoName} {item.matches} {item.repoUrl}
+              {
+                item.files.map((file, index) => <div key={index}><a target="_blank" href={file.fileLink}>{file.fileName}</a></div>)
+              }
+          </div>
+        </>
       )
-  }
+    })
+  ) : (
+    <h2>search results</h2>
+  )
 }
 
 export default SearchResults;
