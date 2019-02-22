@@ -2,22 +2,25 @@ import { injectable } from 'inversify'
 import { action, observable } from 'mobx';
 import {ChangeEvent, FormEvent} from 'react';
 
+
 import { ISearchFormFields, ISearchFormStore, ISearchItem } from '../../interfaces'
 
 @injectable()
 export class SearchFormStore implements ISearchFormStore {
-  @observable public searchResults: ISearchItem[];
+  @observable public searchResults: ISearchItem[] = [];
   @observable public searchFormFields: ISearchFormFields = {};
   @observable public searchFormOptions: string[] = [];
 
   @action
-  public searchCode = (event: FormEvent) => {
+  public searchCode = async (event: FormEvent) => {
     event.preventDefault();
     const fields = Object.entries(this.searchFormFields).filter(([key, value]) => value && key !== '')
     const joinedFields = fields.map(item => item.join('='))
     const options = this.searchFormOptions.map((value: string) => `${value}=true`)
     const query = [...joinedFields, ...options].join('&')
-    console.log(query)
+    const res = await fetch(`https://5c6fd95369738000148aeb2e.mockapi.io/search?${query}`);
+    const data = await res.json();
+    this.searchResults = data;
   }
 
   @action

@@ -5,7 +5,10 @@ import styled from 'styled-components';
 import Header from '../components/Header';
 import SearchForm from '../components/SearchForm';
 import SearchResults from '../components/SearchResults';
+import { lazyInject } from '../config/ioc.container'
+import { SERVICE_IDENTIFIER } from '../constants/identifiers'
 import { Container } from '../globalStyles';
+import { ISearchFormStore } from '../interfaces'
 
 
 const AppWrap = styled.div`
@@ -20,15 +23,21 @@ const Main = styled.main`
 
 @observer
 class MainPage extends Component<{ path: string }> {
+  @lazyInject(SERVICE_IDENTIFIER.SEARCH_FORM_STORE)
+  private SearchFormStore: ISearchFormStore;
   public render() {
     return (
       <AppWrap>
         <Header>
-          <SearchForm />
+          <SearchForm 
+            searchCode={this.SearchFormStore.searchCode} 
+            handleSearchInput={this.SearchFormStore.handleSearchInput}
+            handleSearchOptions={this.SearchFormStore.handleSearchOptions}
+          />
         </Header>
         <Main>
           <Container>
-            <SearchResults />
+            <SearchResults searchResults={this.SearchFormStore.searchResults} />
           </Container>
         </Main>
       </AppWrap>
