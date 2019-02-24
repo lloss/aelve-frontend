@@ -1,18 +1,20 @@
 import React from 'react';
+
 import { ISearchItem } from '../interfaces'
+import FileItem from './FileItem';
 
 const SearchResults:React.FC<any> = props => {
   const {searchResults} = props;
   return searchResults.length ? (
     searchResults.map(({id, ...item}:ISearchItem) => {
       return (
-        <>
-          <div key={id}>{item.repoName} {item.matches} {item.repoUrl}
-              {
-                item.files.map((file, index) => <div key={index}><a target="_blank" href={file.fileLink}>{file.fileName}</a></div>)
-              }
-          </div>
-        </>
+        <div key={id}>
+          <h2><a href={item.repoUrl}>{item.repoName} </a></h2>
+          <span>{item.matches} matches</span>
+            {
+              item.files.map(({id:fileId, ...file}) => <FileItem {...file} key={fileId} />)
+            }
+        </div>
       )
     })
   ) : (
