@@ -3,11 +3,11 @@ import { action, observable } from 'mobx';
 import {ChangeEvent, FormEvent} from 'react';
 
 
-import { ISearchFormFields, ISearchFormStore, ISearchItem } from '../../interfaces'
+import { ISearchFormFields, ISearchFormStore, ISearchResults } from '../../interfaces'
 
 @injectable()
 export class SearchFormStore implements ISearchFormStore {
-  @observable public searchResults: ISearchItem[] = [];
+  @observable public searchResults: ISearchResults[] = [];
   @observable public searchFormFields: ISearchFormFields = {};
   @observable public searchFormOptions: string[] = [];
 

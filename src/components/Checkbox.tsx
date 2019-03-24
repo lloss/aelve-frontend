@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {ReactChild} from 'react';
 import styled from 'styled-components';
 
 const Label = styled.label`
@@ -53,7 +53,7 @@ const Text = styled.span`
 `
 
 type Props = {
-  children: any,
+  children: ReactChild,
   checked?: boolean,
   name?: string,
   onChange?: (e: React.FormEvent) => void,

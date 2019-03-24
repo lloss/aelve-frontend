@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components'
 
+import { ISearchFormStore } from '../interfaces'
 import Button from './Button'
 import Checkbox from './Checkbox';
 import Input from './Input'
@@ -17,7 +18,7 @@ const FormFooter = styled.div`
 `
 
 
-const SearchForm:React.FC<any> = props => {
+const SearchForm:React.FC<ISearchFormStore> = props => {
   return (
     <form onSubmit={props.searchCode}>
       <FormHeader>

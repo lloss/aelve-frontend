@@ -4,6 +4,8 @@ import SyntaxHighlighter from 'react-syntax-highlighter';
 import tomorrow from 'react-syntax-highlighter/dist/styles/hljs/atom-one-dark'; 
 import styled from "styled-components";
 
+import {IFileItem} from "../interfaces/"
+
 
 const FileName = styled.span`
   position: absolute;
@@ -36,7 +38,7 @@ const FileWrapper = styled.article`
 `
 
 
-const FileItem:React.FC<any> = ({
+const FileItem:React.FC<IFileItem> = ({
   fileLink, 
   fileName, 
   sourceCode

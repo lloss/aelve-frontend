@@ -1,17 +1,20 @@
 import React from 'react';
 import styled from "styled-components";
 
-import { ISearchItem } from '../interfaces'
+import { ISearchResults } from '../interfaces'
 import FileItem from './FileItem';
 
 const Link = styled.a`
   color: #60BDEC;
 `
 
-const SearchResults:React.FC<any> = props => {
-  const {searchResults} = props;
+type Props = {
+  searchResults: ISearchResults[]
+}
+
+const SearchResults:React.FC<Props> = ({searchResults}) => {
   return searchResults.length ? (
-    searchResults.map(({id, ...item}:ISearchItem) => {
+    searchResults.map(({id, ...item}) => {
       return (
         <div key={id}>
           <h2><Link href={item.repoUrl}>{item.repoName}</Link></h2>

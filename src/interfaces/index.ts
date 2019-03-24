@@ -27,20 +27,27 @@ export interface IRouterStore {
 }
 
 
-export interface ISearchItem {
+export interface ISearchResults {
     id?: string,
     repoName: string,
     repoUrl: string,
     matches: number,
-    files: any[]
+    files: IFileItem[]
+}
+
+export interface IFileItem {
+    id?: string,
+    fileName: string,
+    sourceCode: string,
+    fileLink: string
 }
 
 
 export interface ISearchFormStore {
-    searchResults: ISearchItem[],
+    searchResults?: ISearchResults[],
     searchCode: (event: FormEvent<HTMLFormElement>) => void,
-    searchFormFields: ISearchFormFields,
-    searchFormOptions: string[],
+    searchFormFields?: ISearchFormFields,
+    searchFormOptions?: string[],
     handleSearchInput: (event: ChangeEvent<HTMLInputElement>) => void,
     handleSearchOptions: (event: ChangeEvent<HTMLInputElement>) => string[],
 }
