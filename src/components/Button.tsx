@@ -23,9 +23,9 @@ type Props = {
   className?: string
 }
 
-const Button:React.FC<Props> = ({children, ...props}) => {
+const Button:React.FC<Props> = ({children}) => {
   return (
-    <ButtonStyled {...props}>{children}</ButtonStyled>
+    <ButtonStyled>{children}</ButtonStyled>
   )
 }
 
