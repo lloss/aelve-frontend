@@ -1,33 +1,31 @@
-import React from 'react';
+import React, {Component} from "react";
 import styled from "styled-components";
 
-import { ISearchResults } from '../interfaces'
-import FileItem from './FileItem';
+import { ISearchResults } from "../interfaces";
+import FileItem from "./FileItem";
 
 const Link = styled.a`
-  color: #60BDEC;
-`
+  color: #60bdec;
+`;
 
-type Props = {
-  searchResults: ISearchResults[]
-}
-
-const SearchResults:React.FC<Props> = ({searchResults}) => {
-  return searchResults.length ? (
-    searchResults.map(({id, ...item}) => {
-      return (
+class SearchResults extends Component<{searchResults: ISearchResults[], lang?: any}> {
+  public render() {
+    const {searchResults, lang} = this.props;
+    if (searchResults.length) {
+      return searchResults.map(({ id, files, ...item }) => (
         <div key={id}>
-          <h2><Link href={item.repoUrl}>{item.repoName}</Link></h2>
+          <h2>
+            <Link href={item.repoUrl}>{item.repoName}</Link>
+          </h2>
           <span>{item.matches} matches</span>
-            {
-              item.files.map(({id:fileId, ...file}) => <FileItem {...file} key={fileId} />)
-            }
+          {files.map(file => (
+            <FileItem {...file} lang={lang} key={file.id} />
+          ))}
         </div>
-      )
-    })
-  ) : (
-    <h2>search results</h2>
-  )
+      ));
+    }
+    return <h2>search results</h2>
+  }
 }
 
 export default SearchResults;

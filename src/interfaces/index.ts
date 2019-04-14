@@ -1,4 +1,3 @@
-import {History, Location, NavigateFn} from '@reach/router';
 import {ChangeEvent, FormEvent} from 'react';
 export interface IHaskellRepoSearchFormStore {
     haskell: string
@@ -19,14 +18,6 @@ export interface IPropsRepositoryItem {
     logoSrc: string
 }
 
-export interface IRouterStore {
-    navigate: NavigateFn,
-    location: Location,
-    history: History,
-    setRouter(navigate: NavigateFn, location: Location, history: History): void
-}
-
-
 export interface ISearchResults {
     id?: string,
     repoName: string,
@@ -39,17 +30,20 @@ export interface IFileItem {
     id?: string,
     fileName: string,
     sourceCode: string,
-    fileLink: string
+    fileLink: string,
+    lang: string
 }
 
-
-export interface ISearchFormStore {
-    searchResults?: ISearchResults[],
+export interface ISearchForm {
     searchCode: (event: FormEvent<HTMLFormElement>) => void,
-    searchFormFields?: ISearchFormFields,
-    searchFormOptions?: string[],
     handleSearchInput: (event: ChangeEvent<HTMLInputElement>) => void,
-    handleSearchOptions: (event: ChangeEvent<HTMLInputElement>) => string[],
+    handleSearchOptions: (event: ChangeEvent<HTMLInputElement>) => string[]
+}
+
+export interface ISearchFormStore extends ISearchForm {
+    searchResults: ISearchResults[],
+    searchFormFields?: ISearchFormFields,
+    searchFormOptions?: string[]
 }
 
 export interface ISearchFormFields {

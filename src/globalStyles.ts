@@ -2,7 +2,7 @@ import styled, { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
   body {
-    font-family: 'Segoe UI';
+    font-family: 'Lato', sans-serif;
     background-color: #242e33;
     font-size: 100%;
     color: #b8ced9;

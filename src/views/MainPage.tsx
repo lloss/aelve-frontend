@@ -18,7 +18,7 @@ const Main = styled.main`
 `
 
 @observer
-class MainPage extends Component<{ path: string },{}> {
+class MainPage extends Component<{ path: string }> {
   public render() {
     return (
       <AppWrap>

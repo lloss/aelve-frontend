@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components'
 
-import { ISearchFormStore } from '../interfaces'
+import { ISearchForm } from '../interfaces'
 import Button from './Button'
 import Checkbox from './Checkbox';
 import Input from './Input'
@@ -18,26 +18,53 @@ const FormFooter = styled.div`
 `
 
 
-const SearchForm:React.FC<ISearchFormStore> = props => {
+const SearchForm:React.FC<ISearchForm> = props => {
   return (
     <form onSubmit={props.searchCode}>
       <FormHeader>
-        <Input type="text" name="query" onChange={props.handleSearchInput} />
-        <Input type="text" name="filter" onChange={props.handleSearchInput} placeholder="[Filter for query]"/>
-        <Input type="text" name="filePath" onChange={props.handleSearchInput} placeholder="[Path to file regex]"/>
+        <Input
+          type="text"
+          name="query"
+          onChange={props.handleSearchInput}
+          required={true}
+        />
+        <Input
+          type="text"
+          name="filter"
+          onChange={props.handleSearchInput}
+          placeholder="[Filter for query]"
+        />
+        <Input
+          type="text"
+          name="filePath"
+          onChange={props.handleSearchInput}
+          placeholder="[Path to file regex]"
+        />
         <Button>Go!</Button>
       </FormHeader>
       <FormFooter>
-        <Checkbox onChange={props.handleSearchOptions} name="case">
+        <Checkbox
+          onChange={props.handleSearchOptions}
+          name="case"
+        >
           Case-insensitive search
         </Checkbox>
-        <Checkbox onChange={props.handleSearchOptions} name="space">
+        <Checkbox
+          onChange={props.handleSearchOptions}
+          name="space"
+        >
           Space-insensitive search
         </Checkbox>
-        <Checkbox onChange={props.handleSearchOptions} name="precise">
+        <Checkbox
+          onChange={props.handleSearchOptions}
+          name="precise"
+        >
           Precise match
         </Checkbox>
-        <Checkbox onChange={props.handleSearchOptions} name="sources">
+        <Checkbox
+          onChange={props.handleSearchOptions}
+          name="sources"
+        >
           Sources only
         </Checkbox>
       </FormFooter>

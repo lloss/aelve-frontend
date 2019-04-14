@@ -8,14 +8,12 @@ import {IFileItem} from "../interfaces/"
 
 
 const FileName = styled.span`
-  position: absolute;
-  right: 0;
-  top: 0;
-  background-color: #1c98e7;
+  background-color: #3c3c3c;
   padding: 8px;
   display: block;
-  border-top-right-radius: 3px;
   font-size: 14px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
 `
 
 const Link = styled(RouterLink)`
@@ -27,35 +25,42 @@ const Link = styled(RouterLink)`
 `
 
 const Code = styled(SyntaxHighlighter)`
-  border: 1px solid #1c98e7;
+  border: 1px solid #3c3c3c;
   padding: 20px!important;
-  border-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
   background-color: #39464d!important;
+  margin-top: 0;
+  & code {
+    font-family: 'Fira Code', monospace;
+  }
 `
 
 const FileWrapper = styled.article`
   position: relative;
+  margin-top: 10px;
 `
 
 
 const FileItem:React.FC<IFileItem> = ({
-  fileLink, 
   fileName, 
-  sourceCode
+  sourceCode,
+  lang,
+  id
 }) => {
   return (
     <FileWrapper>
-      <Link to={`/${fileLink}`}>
+      <Link to={`/${lang}/${id}`}>
+        <FileName>
+          {fileName}
+        </FileName>
         <Code 
-          language='haskell' 
+          language={lang} 
           showLineNumbers={true} 
           style={tomorrow}
         >
           {sourceCode}
         </Code>
-        <FileName>
-          {fileName}
-        </FileName>
       </Link>
     </FileWrapper>
   )

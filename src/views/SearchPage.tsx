@@ -22,10 +22,11 @@ const Main = styled.main`
 `
 
 @observer
-class MainPage extends Component<{ path: string }> {
+class MainPage extends Component<{ path: string, repoLabel?: string }> {
   @lazyInject(SERVICE_IDENTIFIER.SEARCH_FORM_STORE)
   private SearchFormStore: ISearchFormStore;
   public render() {
+    const { repoLabel } = this.props
     return (
       <AppWrap>
         <Header>
@@ -37,7 +38,10 @@ class MainPage extends Component<{ path: string }> {
         </Header>
         <Main>
           <Container>
-            <SearchResults searchResults={this.SearchFormStore.searchResults} />
+            <SearchResults
+              searchResults={this.SearchFormStore.searchResults}
+              lang={repoLabel}
+            />
           </Container>
         </Main>
       </AppWrap>
