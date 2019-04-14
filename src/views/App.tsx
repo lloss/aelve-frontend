@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 
 import MainPage from './MainPage';
 import SearchPage from './SearchPage';
+import SnippetPage from './SnippetPage';
 
 @observer
 class App extends Component {
@@ -11,7 +12,8 @@ class App extends Component {
     return (
       <Router>
         <MainPage path="/" />
-        <SearchPage path=":repoLabel" />
+        <SearchPage path="/:repoLabel" />
+        <SnippetPage path="/:repoLabel/:id" />
       </Router>
     )
   }
