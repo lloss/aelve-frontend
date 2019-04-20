@@ -50,7 +50,7 @@ const FileItem:React.FC<IFileItem> = ({
 }) => {
   return (
     <FileWrapper>
-      <Link to={`/${lang}/${id}`}>
+      <Link to={`/${lang}/${fileName}`}>
         <FileName>
           {fileName}
         </FileName>

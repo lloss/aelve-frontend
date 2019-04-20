@@ -13,7 +13,7 @@ class App extends Component {
       <Router>
         <MainPage path="/" />
         <SearchPage path="/:repoLabel" />
-        <SnippetPage path="/:repoLabel/:id" />
+        <SnippetPage path="/:repoLabel/*" />
       </Router>
     )
   }

@@ -19,7 +19,7 @@ const SnippetStyled = styled.article`
   margin: 20px 0;
 `
 
-const Snippet:any = ({lang}: any) => {
+const Snippet:React.FC<{lang: string | undefined, sourceCode?: string}> = ({lang, sourceCode}) => {
   return (
     <SnippetStyled>
       <Code 
@@ -27,7 +27,7 @@ const Snippet:any = ({lang}: any) => {
         showLineNumbers={true} 
         style={tomorrow}
       >
-        asdf
+        {sourceCode}
       </Code>
     </SnippetStyled>
   )
