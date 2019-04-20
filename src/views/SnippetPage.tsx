@@ -1,24 +1,15 @@
 import {observer} from 'mobx-react'
 import React, { Component } from 'react';
-import styled from 'styled-components';
 
 import Header from '../components/Header';
 import Snippet from '../components/Snippet';
-import { Container } from '../globalStyles';
-
-
-const AppWrap = styled.div`
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-`;
-
-const Main = styled.main`
-  flex: 1 0 auto;
-`
+import { AppWrap, Container, Main } from '../globalStyles';
 
 @observer
-class SnippetPage extends Component<{ path: string, repoLabel?: string}> {
+class SnippetPage extends Component<{ path: string, repoLabel?: string | undefined}> {
+  public componentDidMount() {
+    console.log(this.props['*'])
+  }
   public render() {
     const {repoLabel} = this.props
     return (
@@ -26,7 +17,7 @@ class SnippetPage extends Component<{ path: string, repoLabel?: string}> {
         <Header/>
         <Main>
           <Container>
-            <Snippet lang={repoLabel} />
+            <Snippet lang={repoLabel} sourceCode={'test'} />
           </Container>
         </Main>
       </AppWrap>

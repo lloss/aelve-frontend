@@ -1,25 +1,13 @@
 import {observer} from 'mobx-react'
 import React, { Component } from 'react';
-import styled from 'styled-components';
 
 import Header from '../components/Header';
 import SearchForm from '../components/SearchForm';
 import SearchResults from '../components/SearchResults';
 import { lazyInject } from '../config/ioc.container'
 import { SERVICE_IDENTIFIER } from '../constants/identifiers'
-import { Container } from '../globalStyles';
+import { AppWrap, Container, Main } from '../globalStyles';
 import { ISearchFormStore } from '../interfaces'
-
-
-const AppWrap = styled.div`
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-`;
-
-const Main = styled.main`
-  flex: 1 0 auto;
-`
 
 @observer
 class MainPage extends Component<{ path: string, repoLabel?: string }> {

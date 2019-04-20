@@ -15,3 +15,13 @@ export const Container = styled.div`
   width: 950px;
   margin: 0 auto;
 `
+
+export const AppWrap = styled.div`
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+`;
+
+export const Main = styled.main`
+  flex: 1 0 auto;
+`

@@ -1,21 +1,9 @@
 import {observer} from 'mobx-react'
 import React, { Component } from 'react';
-import styled from 'styled-components';
 
 import Header from '../components/Header';
 import RepositoresGrid from '../components/RepositoresGrid';
-import { Container } from '../globalStyles';
-
-
-const AppWrap = styled.div`
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-`;
-
-const Main = styled.main`
-  flex: 1 0 auto;
-`
+import { AppWrap, Container, Main } from '../globalStyles';
 
 @observer
 class MainPage extends Component<{ path: string }> {
