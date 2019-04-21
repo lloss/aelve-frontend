@@ -51,3 +51,15 @@ export interface ISearchFormFields {
     filter?: string,
     filePath?: string
 }
+
+export interface ISnippet {
+    packageName: string,
+    fileName: string,
+    sourceCode: string,
+    lang: string | undefined
+}
+
+export interface ISnippetPageStore {
+    snippet: ISnippet,
+    getSnippet: (path: string | undefined) => void
+}

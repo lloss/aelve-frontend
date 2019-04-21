@@ -3,5 +3,6 @@ export {
   UiStore, 
   MainPageDomainStore, 
   MainPageMockDomainStore,
-  SearchFormStore
+  SearchFormStore,
+  SnippetPageStore
 } from './stores'

@@ -3,6 +3,8 @@ import SyntaxHighlighter from 'react-syntax-highlighter';
 import tomorrow from 'react-syntax-highlighter/dist/styles/hljs/atom-one-dark'; 
 import styled from "styled-components";
 
+import { ISnippet } from "../interfaces"
+
 const Code = styled(SyntaxHighlighter)`
   border: 1px solid #3c3c3c;
   padding: 20px!important;
@@ -19,7 +21,7 @@ const SnippetStyled = styled.article`
   margin: 20px 0;
 `
 
-const Snippet:React.FC<{lang: string | undefined, sourceCode?: string}> = ({lang, sourceCode}) => {
+const Snippet:React.FC<ISnippet> = ({lang, sourceCode}) => {
   return (
     <SnippetStyled>
       <Code 
