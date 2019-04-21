@@ -56,10 +56,10 @@ export interface ISnippet {
     packageName: string,
     fileName: string,
     sourceCode: string,
-    lang: string | undefined
+    lang?: string
 }
 
 export interface ISnippetPageStore {
     snippet: ISnippet,
-    getSnippet: (path: string | undefined) => void
+    getSnippet: (path: string) => void
 }

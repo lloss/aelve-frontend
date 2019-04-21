@@ -9,7 +9,7 @@ import { AppWrap, Container, Main } from '../globalStyles';
 import { ISnippetPageStore } from '../interfaces'
 
 @observer
-class SnippetPage extends Component<{ path: string, repoLabel?: string | undefined}> {
+class SnippetPage extends Component<{ path: string, repoLabel?: string}> {
   @lazyInject(SERVICE_IDENTIFIER.SNIPPET_PAGE_STORE)
   private SnippetPageStore: ISnippetPageStore;
   public componentDidMount() {
