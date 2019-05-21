@@ -17,12 +17,13 @@ class SnippetPage extends Component<{ path: string, repoLabel?: string}> {
   }
   public render() {
     const { repoLabel } = this.props
+    const { snippet } = this.SnippetPageStore
     return (
       <AppWrap>
         <Header/>
         <Main>
           <Container>
-            <Snippet lang={repoLabel} sourceCode={'sourceCode'} />
+            { Object.keys(snippet).length ? <Snippet lang={repoLabel} {...snippet} /> : <span>Loading...</span> }
           </Container>
         </Main>
       </AppWrap>

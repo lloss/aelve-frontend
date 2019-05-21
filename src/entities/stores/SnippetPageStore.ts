@@ -5,7 +5,7 @@ import { ISnippet, ISnippetPageStore } from '../../interfaces'
 
 @injectable()
 export class SnippetPageStore implements ISnippetPageStore {
-  @observable public snippet: ISnippet;
+  @observable public snippet: ISnippet = { };
 
   @action
   public getSnippet = async (path: string) => {

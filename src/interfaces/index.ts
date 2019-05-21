@@ -53,9 +53,9 @@ export interface ISearchFormFields {
 }
 
 export interface ISnippet {
-    packageName: string,
-    fileName: string,
-    sourceCode: string,
+    packageName?: string,
+    fileName?: string,
+    sourceCode?: string,
     lang?: string
 }
 
